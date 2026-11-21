@@ -8,7 +8,23 @@ Original visual summary of world news reported on November 20, 2026.
 
 ## Entry
 
-The program at the repository root must be `main.py` (Python 3.13) or `main.ts` (Node 22). It writes `/output/entry.png` with no network or third-party dependencies. The image must be <= 1 MiB and <= 1024 by 1024 pixels. Two runs must produce identical bytes.
+Run the standard-library renderer with Python 3.13.
+
+```sh
+MAKEFUN_OUTPUT_DIR=out python3.13 main.py
+```
+
+The default destination is `/output/entry.png`. The illustration is drawn from geometric shapes and hand-coded lettering. It uses no external artwork, fonts, or runtime data.
+
+## Reporting
+
+- Russian strikes hit Ukrainian power infrastructure and Russian missiles came down in Poland. [Reuters](https://www.reuters.com/world/china/trump-says-he-putin-had-very-good-talks-ukraine-2026-11-20/) · [Associated Press](https://apnews.com/article/433e18f00cbd37a2a9da94e60fce0e07)
+- On Friday Myanmar rejected the ICJ's Thursday judgment on the Rohingya genocide. [Associated Press](https://apnews.com/article/c76dcb3f97c1077262f87e0cba01bb78)
+- The Nasdaq fell about 5% in Friday's tech sell-off. [Reuters](https://www.reuters.com/business/view-nasdaq-plunges-5-day-after-anthropic-debut-investors-still-believe-ai-2026-11-20/)
+- WHO reported additional confirmed Ebola cases in the Democratic Republic of the Congo. [WHO](https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON630)
+- A COP31 draft outlined a roadmap on climate adaptation finance. [The Guardian](https://www.theguardian.com/environment/ng-interactive/2026/nov/20/cop31-draft-climate-text-explained)
+- A supercell struck southern Brazil early Friday. [Reuters](https://www.reuters.com/business/environment/town-southern-brazil-left-reeling-by-supercell-storm-2026-11-21/)
+- Trump spoke on Friday about his talks with Xi Jinping and Vladimir Putin in Shenzhen. [Reuters](https://www.reuters.com/world/china/trump-says-he-putin-had-very-good-talks-ukraine-2026-11-20/)
 
 ## Provenance
 
